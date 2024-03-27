@@ -1,0 +1,17 @@
+.grid__item,
+.grid__item p {
+    margin-bottom: var(--spacing-1); /* Ajout d'une marge en bas pour les éléments grid__item et leurs paragraphes enfants */
+}
+
+.grid__date {
+    font-weight: 500; /* Modification du poids de la police pour la classe grid__date */
+}
+
+.grid__title {
+    margin-bottom: 0; /* Suppression de la marge en bas pour la classe grid__title */
+}
+
+.grid__location {
+    font-weight: 300; /* Modification du poids de la police pour la classe grid__location */
+    color: var(--date-color); /* Modification de la couleur du texte pour la classe grid__location en utilisant une variable */
+}

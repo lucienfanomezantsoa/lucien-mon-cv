@@ -1,0 +1,24 @@
+.user {
+    text-align: center;
+}
+
+.user__avatar {
+    border-radius: 50%; /* Utilisation de 50% au lieu de 55% pour une forme de cercle */
+    width: 150px; /* Taille spécifique pour l'avatar, ajustez selon vos besoins */
+    height: 150px;
+    object-fit: cover; /* Pour s'assurer que l'image s'adapte correctement à la forme circulaire */
+}
+
+.user__details {
+    text-align: left;
+    padding: 20px 0; /* Utilisation de valeurs spécifiques au lieu de var(--spacing-3) et var(--spacing-1) */
+}
+
+.user__info {
+    display: flex;
+    align-items: center; /* Pour aligner le contenu verticalement */
+}
+
+.user__info i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}

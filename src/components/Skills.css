@@ -1,0 +1,10 @@
+.skills {
+    margin-top: var(--spacing-3); /* Utilisation de margin-top au lieu de margin pour plus de clarté */
+    margin-bottom: 0; /* Réglage de la marge inférieure à 0 pour éviter toute surcharge */
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
